@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FLQYPZXZFW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FLQYPZXZFW');
+</script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no">
+<meta charset="utf-8">
+<title>大成ロテック株式会社｜道路舗装会社</title>
+<meta name="keywords" content="道路会社,舗装会社,道路舗装工事,アスファルト舗装,舗装補修工事">
+<meta name="description" content="道路舗装会社 大成ロテック株式会社のオフィシャルサイトです。当社は、道路舗装や景観舗装、駐車場舗装、外構工事、土木工事、アスファルト合材の製造販売等を通じて、環境に配慮したより良い街づくりをご提案します。">
+<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+<link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/material/css/styles.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="/material/css/animate.css">
+<link rel="stylesheet" type="text/css" href="/material/css/recruit.css">
+
+<link rel="stylesheet" href="/css/module.css">
+<link rel="alternate stylesheet" href="/material/css/large.css" type="text/css" title="Large">
+<!--<script src="/material/js/jquery.js"></script>-->
+<script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+<script src="/js/lib/lib.js"></script>
+<script src="/js/common.js"></script>
+<script src="/material/js/script.js"></script>
+<script src="/material/js/styleswitcher.js"></script>
+<script src="/material/js/include.js"></script>
+<script src="/material/js/analytics.js"></script>
+<script src="/material/js/jquery.matchHeight.js"></script>
+<script src="/material/js/TweenMax.min.js"></script>
+<script src="/material/js/jquery.backstretch.js"></script>
+<script src="/material/js/jquery.lettering.js"></script>
+<script src="/material/js/jquery.textillate.js"></script>
+
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.taiseirotec.co.jp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.taiseirotec.co.jp/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 3.4.2" />
+
+<!--Plugin WP Missed Schedule 2011.0920.2011 Active-->	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+
+<!-- All in One SEO Pack 2.0.2 by Michael Torbert of Semper Fi Web Design[-1,-1] -->
+<!-- /all in one seo pack -->
+<script>
+(function() {
+  let ua = navigator.userAgent.toLowerCase();
+  let isMobile = /iphone|android(.+)?mobile/.test(ua);
+  let isTablet = /ipad|android(?!.*mobile)|macintosh(?!.*mac os x)/.test(ua); // iPad Air, iPad Pro対応
+  let meta = document.createElement('meta');
+  meta.name = "viewport";
+
+  if (isMobile) {
+    meta.content = "width=device-width, initial-scale=1";
+  } else if (isTablet) {
+    meta.content = "width=1240, shrink-to-fit=no";
+  } else {
+    meta.content = "width=device-width, initial-scale=1"; // デスクトップもレスポンシブ対応
+  }
+
+  document.head.prepend(meta);
+})();
+</script>
+</head>
+<body>
+<div id="container">
+	<!-- ::: Head ::: -->
+	<?php get_template_part('template_header'); ?>
+	<!-- ::: /Head ::: -->
+
+	<div class="ly_body">
+    <div class="ly_mainvis">
+			<div class="ly_mainvis_inner">
+				<h2 class="bl_pageTtl"><span class="bl_pageTtl_jp">採用情報</span><span class="bl_pageTtl_en">Recruit information</span></h2>
+			</div>
+			<!-- /.ly_mainvis_inner -->
+		</div>
+    <div class="bl_pageBox">
+			<div class="breadlink bl_page_path"><a href="/" class="bl_navi">TOP</a> &gt; 採用情報</div>
+		</div>
+    <div class="un_recruitBlock">
+      <div class="un_topText ">
+        <h3>新卒採用情報</h3>
+        <div id="new">
+          <div>
+            <div class="copy">
+<!--              <p>未来へと繋がる限りない可能性</p>-->
+              <p class="catch">人々のために<br>より良い環境を<br><span>創造</span>する</p>
+              <p class="en">Create a better environment for people</p>
+              <div class="btn">
+                <a href="/recruit/new/">新卒採用サイトへ</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+<!--道建協バナー非表示 
+        <div class="top-banner">
+        	<a href="https://dohkenkyo-recruit.jp/" class="top-banner__link" target="_blank">
+        		<img src="/material/images/recruit/img_banner1.jpg" alt="IT'S NOTHING SPECIAL. 当たり前を作る。舗装をつくる。">
+        	</a>
+        </div>
+-->
+
+        <!-- [/top-banner] -->
+        <div id="carrer">
+          <div class="flex">
+            <div>
+              <h3>キャリア採用情報</h3>
+              <img src="/material/images/recruit/carrer.jpg" alt="キャリア採用情報">
+              <div class="btn">
+                <a href="/recruit/information/carrer/">詳細を見る</a>
+              </div>
+            </div>
+            <div>
+              <?php
+              $args = array(
+                'post_type' => 'employment',
+                'posts_per_page' => 1,
+              );
+              $the_query = new WP_Query( $args );
+              ?>
+              <h3>障がい者採用情報</h3>
+							<?php if ( $the_query->have_posts() ) : ?>
+							<?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
+								<p><?php the_content(); ?></p>
+							<?php endwhile; wp_reset_postdata(); ?>
+							<?php endif; ?>
+            </div>
+          </div>
+        </div>
+        <div id="contact">
+					<?php
+					$args = array(
+						'post_type' => 'contact',
+						'posts_per_page' => 1,
+					);
+					$the_query = new WP_Query( $args );
+					?>
+          <h3>問い合わせ先</h3>
+					<?php if ( $the_query->have_posts() ) : ?>
+					<?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
+						<p><?php the_content(); ?></p>
+					<?php endwhile; wp_reset_postdata(); ?>
+					<?php endif; ?>
+        </div>
+      </div>
+    </div>
+	</div>
+	<!-- /.ly_body -->
+
+	<!-- ::: Foot ::: --><!-- #BeginLibraryItem "/Library/footer.lbi" -->
+<footer class="ly_foot">
+
+    <div class="bl_pageTop js_pageTop js_noScroll js-target page-navi-fixed">
+        <a href="#"><img src="/img/common/icon_pagetop.png" alt="pagetop"></a>
+    </div>
+
+    <div class="bl_foot_inner">
+        <ul class="bl_foot_navList clearfix">
+            <li class="bl_foot_navList_item">
+                <ul class="bl_foot_navList clearfix">
+                    <li class="bl_foot_navList_item"><a href="/business/" class="bl_foot_navList_lnk">事業案内</a></li>
+                    <li class="bl_foot_navList_item"><a href="/works/" class="bl_foot_navList_lnk">実績紹介</a></li>
+                    <li class="bl_foot_navList_item"><a href="/technicalinfo/" class="bl_foot_navList_lnk">技術情報</a></li>
+                </ul>
+            </li>
+            <li class="bl_foot_navList_item">
+                <ul class="bl_foot_navList clearfix">
+                    <li class="bl_foot_navList_item"><a href="/corporate/" class="bl_foot_navList_lnk bl_foot_navList_lnk02">会社情報</a></li>
+                    <li class="bl_foot_navList_item"><a href="/recruit/" class="bl_foot_navList_lnk bl_foot_navList_lnk02">採用情報</a></li>
+                    <li class="bl_foot_navList_item"><a href="/contact/" class="bl_foot_navList_lnk bl_foot_navList_lnk02">お問い合わせ</a></li>
+                </ul>
+            </li>
+            <li class="bl_foot_navList_item">
+                <ul class="bl_foot_navList clearfix">
+                    <li class="bl_foot_navList_item bl_foot_navList_item_noBold"><a href="/business/pavement#pavement" class="bl_foot_navList_lnk">まちの舗装屋さん</a></li>
+                    <li class="bl_foot_navList_item bl_foot_navList_item_noBold"><a href="/info/" class="bl_foot_navList_lnk">インフォメーション</a></li>
+                    <!-- <li class="bl_foot_navList_item bl_foot_navList_item_noBold"><a href="" class="bl_foot_navList_lnk bl_foot_navList_lnk01">ピックアップ技術紹介</a></li> -->
+                </ul>
+            </li>
+            <li class="bl_foot_navList_item">
+                <ul class="bl_foot_navList clearfix">
+                    <li class="bl_foot_navList_item bl_foot_navList_item_noBold"><a href="/pdf/amenity.pdf" target="_blank" class="bl_foot_navList_lnk bl_foot_navList_lnk02">WEBカタログ</a></li>
+                    <li class="bl_foot_navList_item bl_foot_navList_item_noBold"><a href="/payment/" class="bl_foot_navList_lnk bl_foot_navList_lnk02">お支払いについて</a></li>
+                </ul>
+            </li>
+            
+             <li class="footer_logo sp-hide">
+                <ul>
+                    <li><a href="https://www.taisei-techsolu.jp/kurashi-machi/" target="_blank"><img src="/img/top/kuramachi_banner.png" alt="くらしと街のコンシェルジュ"></a></li>
+                </ul>
+ <ul>
+                    <li class="footer_logo__image dokenkyo_logo"><a href="https://gakumado.mynavi.jp/contents/m/articles/gmd/_tu_atarimae/" target="_blank"><img src="/img/top/dokenkyo_banner.png" alt="日本道路建設業協会"></a></li>
+                </ul>
+
+            </li>
+
+        </ul>
+    </div>
+
+        <div class="footer_logo pc-hide">
+           <div class="footer_logo__image "><a href="https://www.taisei-techsolu.jp/kurashi-machi/" target="_blank"><img src="/img/top/kuramachi_banner.png" alt="くらしと街のコンシェルジュ"></a></div>
+<div class="footer_logo__image"><a href="https://gakumado.mynavi.jp/contents/m/articles/gmd/_tu_atarimae/" target="_blank"><img src="/img/top/dokenkyo_banner.png" alt="日本道路建設業協会"></a></div>
+        </div>
+
+    <div class="bl_foot_btm">
+        <div class="bl_foot_btm_inner clearfix">
+            <ul class="bl_infoList">
+                <li class="bl_infoList_item"><a href="/sitepolicy/" class="bl_infoList_lnk">サイトポリシー</a>|</li>
+                <li class="bl_infoList_item"><a href="/privacypolicy/" class="bl_infoList_lnk">プライバシーポリシー</a>|</li>
+                <li class="bl_infoList_item"><a href="/sitemap/" class="bl_infoList_lnk">サイトマップ</a></li>
+            </ul>
+            <small class="bl_copy">&copy;TAISEI ROTEC CORP. All Rights Reserved.</small>
+        </div>
+    </div>
+
+</footer>
+<!-- /.ly_foot --> <!-- #EndLibraryItem --><!-- ::: /Foot ::: -->
+
+</div>
+<!-- /container -->
+
+<!--Plugin WP Missed Schedule 2011.0920.2011 Active--></body>
+</html>

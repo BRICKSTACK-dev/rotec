@@ -1,0 +1,67 @@
+<footer class="ly_foot">
+
+    <div class="bl_pageTop js_pageTop js_noScroll js-target page-navi-fixed">
+        <a href="#"><img src="/img/common/icon_pagetop.png" alt="pagetop"></a>
+    </div>
+
+    <div class="bl_foot_inner">
+        <ul class="bl_foot_navList clearfix">
+            <li class="bl_foot_navList_item">
+                <ul class="bl_foot_navList clearfix">
+                    <li class="bl_foot_navList_item"><a href="/business/" class="bl_foot_navList_lnk">事業案内</a></li>
+                    <li class="bl_foot_navList_item"><a href="/works/" class="bl_foot_navList_lnk">実績紹介</a></li>
+                    <li class="bl_foot_navList_item"><a href="/technicalinfo/" class="bl_foot_navList_lnk">技術情報</a></li>
+                </ul>
+            </li>
+            <li class="bl_foot_navList_item">
+                <ul class="bl_foot_navList clearfix">
+                    <li class="bl_foot_navList_item"><a href="/corporate/" class="bl_foot_navList_lnk bl_foot_navList_lnk02">会社情報</a></li>
+                    <li class="bl_foot_navList_item"><a href="/recruit/" class="bl_foot_navList_lnk bl_foot_navList_lnk02">採用情報</a></li>
+                    <li class="bl_foot_navList_item"><a href="/contact/" class="bl_foot_navList_lnk bl_foot_navList_lnk02">お問い合わせ</a></li>
+                </ul>
+            </li>
+            <li class="bl_foot_navList_item">
+                <ul class="bl_foot_navList clearfix">
+                    <li class="bl_foot_navList_item bl_foot_navList_item_noBold"><a href="/business/pavement#pavement" class="bl_foot_navList_lnk">まちの舗装屋さん</a></li>
+                    <li class="bl_foot_navList_item bl_foot_navList_item_noBold"><a href="/info/" class="bl_foot_navList_lnk">インフォメーション</a></li>
+                    <!-- <li class="bl_foot_navList_item bl_foot_navList_item_noBold"><a href="" class="bl_foot_navList_lnk bl_foot_navList_lnk01">ピックアップ技術紹介</a></li> -->
+                </ul>
+            </li>
+            <li class="bl_foot_navList_item">
+                <ul class="bl_foot_navList clearfix">
+                    <li class="bl_foot_navList_item bl_foot_navList_item_noBold"><a href="/pdf/amenity.pdf" target="_blank" class="bl_foot_navList_lnk bl_foot_navList_lnk02">WEBカタログ</a></li>
+                    <li class="bl_foot_navList_item bl_foot_navList_item_noBold"><a href="/payment/" class="bl_foot_navList_lnk bl_foot_navList_lnk02">お支払いについて</a></li>
+                </ul>
+            </li>
+            
+            <li class="footer_logo sp-hide">
+                <ul>
+                    <li><a href="https://www.taisei-techsolu.jp/kurashi-machi/" target="_blank"><img src="/img/top/kuramachi_banner.png" alt="くらしと街のコンシェルジュ"></a></li>
+                </ul>
+ <ul>
+                    <li class="footer_logo__image dokenkyo_logo"><a href="https://gakumado.mynavi.jp/contents/m/articles/gmd/_tu_atarimae/" target="_blank"><img src="/img/top/dokenkyo_banner.png" alt="日本道路建設業協会"></a></li>
+                </ul>
+
+            </li>
+
+        </ul>
+    </div>
+
+        <div class="footer_logo pc-hide">
+           <div class="footer_logo__image "><a href="https://www.taisei-techsolu.jp/kurashi-machi/" target="_blank"><img src="/img/top/kuramachi_banner.png" alt="くらしと街のコンシェルジュ"></a></div>
+<div class="footer_logo__image"><a href="https://gakumado.mynavi.jp/contents/m/articles/gmd/_tu_atarimae/" target="_blank"><img src="/img/top/dokenkyo_banner.png" alt="日本道路建設業協会"></a></div>
+        </div>
+
+    <div class="bl_foot_btm">
+        <div class="bl_foot_btm_inner clearfix">
+            <ul class="bl_infoList">
+                <li class="bl_infoList_item"><a href="/sitepolicy/" class="bl_infoList_lnk">サイトポリシー</a>|</li>
+                <li class="bl_infoList_item"><a href="/privacypolicy/" class="bl_infoList_lnk">プライバシーポリシー</a>|</li>
+                <li class="bl_infoList_item"><a href="/sitemap/" class="bl_infoList_lnk">サイトマップ</a></li>
+            </ul>
+            <small class="bl_copy">&copy;TAISEI ROTEC CORP. All Rights Reserved.</small>
+        </div>
+    </div>
+
+</footer>
+<!-- [/ly_foot] -->
